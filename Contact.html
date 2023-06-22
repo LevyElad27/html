@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>Contact Us - Travel to Barcelona</title>
+  <style>
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .contact-form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 15px;
+    }
+    .contact-form button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Elad - Travel to Barcelona</h1>
+  
+  <div class="contact-form">
+    <form action="contact.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+  
+  <p>Thank you for your interest in traveling to Barcelona! If you have any questions, suggestions, or need assistance regarding your trip, please feel free to reach out to us using the contact form above. We'll be happy to help you with any information you need.</p>
+  
+  <p>Alternatively, you can also contact us directly at:</p>
+  
+  <p>Email: InfoElad@barcelonatravel.com</p>
+  <p>Phone: +972 (123) 456-7890</p>
+</body>
+</html>
